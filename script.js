@@ -69,7 +69,7 @@ let carro = [];
             carro.push(carrito[i].precio)
         }
 
-        let respuesta = confirm(`¿Desea concretar la compra de :  ${carro}   \n por un valor total de : $ ${precioTotal}  ?`);
+        let respuesta = confirm(`¿Desea concretar la compra de :  ${carro}   \n por un valor total de : $ ${precioTotal}  ? \n Tecla ESC si desea quitar algún elemento del carrito`);
         if (respuesta){
 
             alert("Gracias por elegirnos!");
