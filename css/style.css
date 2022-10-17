@@ -1,0 +1,61 @@
+/*-------RESET------*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* - ---------ESTILO GENERAL-------------------------------------------- - */
+:root {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+}
+
+/*---Nav---------------------------------------------------------------*/
+.contenedorNav {
+  width: 100%; 
+}
+
+.subContenedorNav {
+  width: 100%;
+}
+
+.spanNav {
+  margin-right: 0.7%;
+  width: 156px;
+}
+
+.navA {
+  font-size: 17px;
+  width: auto;
+  text-decoration: none;
+  padding: 10px 10px;
+  text-align: center;
+  margin-right: 0.874%;
+}
+
+.navA:hover {
+  background-color: #464E61;
+  color: white;
+  width: auto;
+  padding: 10px 10px;
+  text-align: center;
+  margin-right: 0.874%;
+}
+
+.logo {
+  height: 140px;
+  width: 140px; 
+  border-radius: 50%; 
+}
+
+/* ------------------fin nav-----*/
+/*- ---Footer -----------------------------------------------------------------*/
+
+h1{
+  font-size: 15em;
+}
+
+.centrar{
+  text-align: center;
+}
