@@ -1,0 +1,121 @@
+/*-------RESET------*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* - ---------ESTILO GENERAL-------------------------------------------- - */
+:root {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  background-color: #464E61;
+}
+
+/*---Nav---------------------------------------------------------------*/
+.contenedorNav {
+  width: 100%; 
+}
+
+.subContenedorNav {
+  width: 100%;
+}
+
+.spanNav {
+  margin-right: 0.7%;
+  width: 156px;
+}
+
+.navA {
+  font-size: 17px;
+  width: auto;
+  text-decoration: none;
+  padding: 10px 10px;
+  text-align: center;
+  margin-right: 0.874%;
+}
+
+.navA:hover {
+  background-color: #464E61;
+  color: white;
+  width: auto;
+  padding: 10px 10px;
+  text-align: center;
+  margin-right: 0.874%;
+}
+
+.logo {
+  height: 140px;
+  width: 140px; 
+  border-radius: 50%; 
+}
+
+#buscador{
+  width: 26%;
+  margin-right: 20%;
+}
+
+#iconoCarrito{
+
+  color: white;
+  font-size: 2.2rem;
+  margin-top: 5px;
+
+}
+
+.carritoVacio{
+
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+#contadorProducto{
+
+  background-color: #464E61!important;
+  font-size: 1rem;
+
+}
+/* ------------------fin nav-----*/
+/*- ---Footer -----------------------------------------------------------------*/
+
+h1{
+  font-size: 15em;
+}
+
+.centrar{
+  text-align: center;
+}
+
+.color{
+  background-color: tomato;
+}
+
+
+.card-producto{
+
+  height: 500px;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  margin-top: 4%;
+  padding: 4%;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.divImg{
+  width: 40%;
+  margin-right: 5%;
+}
+
+.precio{
+  font-size: 2rem;
+  
+  font-weight: bold;
+}
+
+.img{
+
+  width: 100px;
+
+}
